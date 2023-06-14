@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPF8OiQ/w3VVBpWAtxDKOgl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/passosdeveloper/hello-world/blob/master/somaintensparnalista\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RuqqNEep_x9J",
+        "outputId": "27505e6b-8e30-43d0-e6d7-9116f91d0fc6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "O somatório dos elementos da lista é: 18\n",
+            "O somatório da lista02 é:8\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Estratégia 01\n",
+        "\n",
+        "lista = [10,2, 5, 7, 6, 3]\n",
+        "n=len(lista)\n",
+        "soma=0\n",
+        "for i in range(n):\n",
+        "    if(lista[i]%2==0):\n",
+        "      soma=soma+lista[i]\n",
+        "print(f'O somatório dos elementos da lista é: {soma}')\n",
+        "\n",
+        "#Estratégia 02\n",
+        "\n",
+        "lista02 = [1, 2, 5, 7, 6, 3]\n",
+        "\n",
+        "soma1 = 0\n",
+        "\n",
+        "for num in lista02:\n",
+        "  if(num%2==0):\n",
+        "    soma1=soma1+num\n",
+        "print(f'O somatório da lista02 é:{soma1}')"
+      ]
+    }
+  ]
+}
